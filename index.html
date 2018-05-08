@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Paginator</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Lapozó</h1>
+
+    <div id="content-wrapper"></div>
+    <div class="row justify-right-md-center">
+
+      <div class="col-md-auto" id="beforepages">
+        <button style="display: none;" type="button" id="first" class="btn btn-light">
+          <i class="fas fas-angle-double-left"></i>
+        </button>
+        <button style="display: none;" type="button" id="prev" class="btn btn-light">
+          <i class="fas fa-angle-left"></i>
+        </button>
+      </div>
+      <div class="col-md-auto" id="pagination"></div>
+      <div class="col-md-auto" id="afterpages">
+        <button style="display: none;" type="button" id="next" class="btn btn-light">
+          <i class="fas fa-angle-right"></i>
+        </button>
+        <button style="display: none;" type="button" id="last" class="btn btn-light">
+          <i class="fas fa-angle-double-right"></i>
+        </button>
+      </div>
+    </div>
+    <ul id=menu>
+      <li>
+        <a href="#cikk15">Cikk 15</a>
+      </li>
+      <li>
+        <a href="#cikk30">Cikk 30</a>
+      </li>
+      <li>
+        <a href="#cikk45">Cikk 45</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
